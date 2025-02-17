@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend:wght@100..900&family=Syne:wght@400..800&display=swap');
+
+
+@font-face {
+    font-family: 'alfreddrake';
+    src: url(../assets/fonts/alfreddrake.ttf);
+}
+
+body{
+    background-color: #728651;
+    padding: 0;
+    margin: 0;
+    margin-top: 10vw;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Syne';
+    font-size: 3vw;
+    color: #728651;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #ffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    height: 5vw;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+
+.logo a{
+    background-color: #ffff;
+    text-decoration: none;
+    text-align: left;
+    margin-top:0;
+    padding-left: 1vw;
+}
+
+.logo h1{
+    margin-left: 1vw;
+}
+
+nav{
+    background-color: #ffff;
+}
+
+nav ul{
+    list-style: none;
+    background-color: #ffff;
+    padding: 0vw;
+    margin: 0vw;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+}
+
+nav a{
+    color: #728651;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    padding: 1vw 2vw;
+    font-family: 'Syne';
+    font-size: 2vw
+
+}
+
+nav a:hover{
+    color: hsl(0, 0%, 30%);
+    transition: 10ms;
+}
+
+nav ul li{ 
+    display: inline-block;
+}
+
+/*
+.banner1{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.smallBox1{
+    height: 100%;
+    width: 49%;
+    float: left;
+}
+
+.smallBox2{
+    height: 100%;
+    width: 49%;
+    float: right;
+}
+
+.noodles{ 
+    width: 100%;
+}
+
+.cook{
+    width: 100%;
+    float: right;    
+}
+*/
+
+.banner{
+    height: 100%;
+    margin-top: 2vw;
+    padding: 2vw;
+}
+
+#homeContainer{
+    display: grid;
+    grid-template-areas: 'a b c';
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 3vw;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+#homeContainer div{
+    align-items: center;
+}
+
+.farskaVaror{
+    position: relative;
+    height: 40vw;
+    width: 20vw;
+    background-color: #728651;
+}
+
+.farskaVaror p{
+    color: #ffff;
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 1.5vw;
+    width: 30vw;
+}
+
+.thaiVagnen{
+    position: relative;
+    height: 40vw;
+    width: 20vw;
+    background-color: #728651;
+}
+
+.thaiVagnen p{
+    color: #ffff;
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 1.5vw;
+    width: 30vw;
+}
+
+.ersboda{
+   position: relative;
+   height: 40vw;
+   width: 20vw;
+   background-color: #728651;
+}
+
+.ersboda p{
+    color: #ffff;
+    text-align: center;
+    font-family: 'Karla'; 
+    font-size: 1.5vw;
+    width: 30vw;
+}
+
+.farskaVaror h2{
+    color:#ffff;
+    text-align: center;
+    font-family: 'Syne';
+    font-size: 3vw;
+    width: 30vw;
+}
+
+.thaiVagnen h2{
+    color:#ffff;
+    text-align: center;
+    font-family: 'Syne';
+    font-size: 3vw;
+    width: 30vw;
+}
+
+.ersboda h2{
+    color:#ffff;
+    text-align: center;
+    font-family: 'Syne';
+    font-size: 3vw;
+    width: 30vw;
+}
+
+.banner2{
+    background-color: #ffff;
+    height: 100%;
+    padding: 3vw;
+}
+
+#timeContainer{
+    display: grid;
+    grid-template-areas: 'a b';
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 5vw;
+    justify-content: space-between;
+    gap: 10vw;
+}
+
+#timeContainer div{
+    align-items: center;
+}
+
+.oppettider{
+    position: relative;
+
+}
+
+.oppettider h2{
+    color: #728651;
+    text-align: left;
+    font-family: 'Syne';
+    font-size: 2vw;
+}
+
+.oppettider dl{
+    color:#728651;
+    font-family: 'Karla';
+    font-size: 1.5vw;
+    text-align: center;
+
+}
+
+.cook{
+    position:relative;
+    height: 40vw;
+    width: 40vw;
+}
+
+.banner3{
+    background-color:#728651;
+    height: 100%;
+    padding: 3vw;
+}
+
+
+#feedbackContainer h2{
+    color: #ffff;
+    text-align: left;
+    font-family: 'Syne';
+    font-size: 2vw;
+}
+
+.feedbackScroll{
+    margin: 20px auto;
+    padding: 15px;
+    width: 80%;
+    max-width: 600px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+footer{
+    background-color: #ffff;
+    padding-bottom: 1vw;
+}
+
+#footerContainer{
+    display: grid;
+    align-items: center;
+    grid-template-areas: 'a b c';
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+#footerContainer div{
+    width: 30vw;
+    text-align: center;
+    float: top;
+    align-self: start;
+}
+
+.footerBesokOss h3{
+    color:#728651;
+    font-family: 'Syne';
+}
+
+.footerBesokOss p{
+    margin: 0;
+    color:#728651;
+    font-family: 'Syne';
+}
+
+.footerBesokOss a{
+    text-decoration: none;
+    color: #728651;
+}
+
+.footerThaiVagnen i{
+    color: #728651;
+}
+
+.footerThaiVagnen h3{
+    color: #728651;
+    font-family: 'Syne';
+}
+
+.footerOppettider{
+    color:#728651;
+    font-family: 'Syne';
+}
