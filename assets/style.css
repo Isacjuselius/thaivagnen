@@ -298,11 +298,22 @@ nav ul li{
 }
 
 .carouselSlide{
-    position: absolute;
+    display: inline-block;
     top: 0;
     bottom: 0;
     width:100%;
 }
+
+.carouselSlide h3{
+    font-family: 'Syne';
+    font-size: 1.5vw;
+}
+
+.carouselSlide p{
+    font-family: 'Karla';
+    font-size: 1.5vw;
+}
+
 .carouselButtonLeft{
     position: absolute;
     top: 50%;
@@ -334,7 +345,6 @@ nav ul li{
 }
 
 .carouselNav{
-    
     display: flex;
     justify-content: center;
     padding: 1vw 0;
@@ -350,6 +360,13 @@ nav ul li{
 
 .carouselIndicator.currentSlide{
     background: rgba(0,0,0,1);
+}
+
+.flerRecensioner a{
+    
+    color: #ffff;
+    font-family: 'Syne';
+    font-size: 1.5vw;
 }
 
 footer{
