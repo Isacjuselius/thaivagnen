@@ -14,6 +14,7 @@ body{
     margin: 0;
     margin-top: 10vw;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 h1{
@@ -22,6 +23,15 @@ h1{
     color: #728651;
     margin: 0;
     padding: 0;
+}
+
+h2{
+    font-family: 'Syne'
+}
+
+p{
+    font-family: 'Karla';
+    font-size: 1.5vw;
 }
 
 html{
@@ -128,8 +138,6 @@ nav ul li{
 .farskaVaror p{
     color: #ffff;
     text-align: center;
-    font-family: 'Karla';
-    font-size: 1.5vw;
     width: 30vw;
 }
 
@@ -143,8 +151,6 @@ nav ul li{
 .thaiVagnen p{
     color: #ffff;
     text-align: center;
-    font-family: 'Karla';
-    font-size: 1.5vw;
     width: 30vw;
 }
 
@@ -158,8 +164,6 @@ nav ul li{
 .ersboda p{
     color: #ffff;
     text-align: center;
-    font-family: 'Karla'; 
-    font-size: 1.5vw;
     width: 30vw;
 }
 
@@ -296,7 +300,6 @@ nav ul li{
 }
 
 .carouselSlide p{
-    font-family: 'Karla';
     font-size: 1.5vw;
 }
 
@@ -390,6 +393,7 @@ footer{
     margin: 0;
     color:#728651;
     font-family: 'Syne';
+    font-size: 0.75vw;
 }
 
 .footerBesokOss a{
@@ -406,15 +410,22 @@ footer{
     font-family: 'Syne';
 }
 
+.footerThaiVagnen p{
+    font-size: 0.75vw;
+}
+
 .footerOppettider{
     color:#728651;
     font-family: 'Syne';
 }
 
-menu body{
-    background-color: #ffff;
+.footerOppettider p{
+    font-size: 0.75vw;
 }
 
+/**
+    Menu
+**/
 .menuSection{
     background-color: #ffff;
     height: 100%;
@@ -434,10 +445,6 @@ menu body{
 .chicken{
     background-color: lightblue;
     padding:2vw;
-}
-
-.chicken h2{
-    font-family: 'Syne'; 
 }
 
 .chicken dl{
@@ -460,10 +467,6 @@ menu body{
     padding: 2vw;
 }
 
-.beef h2{
-    font-family: 'Syne';
-}
-
 .beef dl{
     font-family: 'Karla'
 }
@@ -476,10 +479,6 @@ menu body{
 .prawns{
     background-color: pink;
     padding: 2vw;
-}
-
-.prawns h2{
-    font-family: 'Syne'; 
 }
 
 .prawns dl{
@@ -496,9 +495,6 @@ menu body{
     padding: 2vw;
 }
 
-.veg h2{
-    font-family: 'Syne';
-}
 
 .veg dl{
     font-family: 'Karla'
@@ -508,4 +504,33 @@ menu body{
 .veg dt{
     font-weight: bold;
     font-size: 1.1vw;
+}
+/**
+    About Us
+**/
+
+.aboutUs{
+    height:100%;
+    padding: 2vw;
+}
+
+#aboutUsContainer{
+    display: grid;
+    width: 100%;
+    grid-template-areas: 'a b';
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 1vw;
+    gap: 2vw;
+    
+}
+
+.weAreThaiVagnen{
+    background-color: #ffff;
+    padding: 2vw;
+    height: 35vw;
+}
+
+.video{
+    width: 30vw;
 }
