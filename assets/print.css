@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend:wght@100..900&family=Syne:wght@400..800&display=swap');
+
+header, footer{
+    display:none;
+}
+
+.chicken{
+    background-color: rgb(195, 195, 195);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    margin-bottom: 2vw;
+    padding: 2vw;
+}
+.chicken h2{
+    font-family: 'Syne';
+}
+.chicken dl{
+    font-family: 'Karla';
+}
+.chicken dt{
+    font-weight: bold;
+}
+
+.beef{
+    background-color: rgb(150, 150, 150);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    margin-bottom: 10vw;
+    padding: 2vw;
+}
+.beef h2{
+    font-family: 'Syne';
+}
+.beef dl{
+    font-family: 'Karla';
+}
+.beef dt{
+    font-weight: bold;
+}
+
+.prawns{
+    background-color: rgb(200, 200, 200);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    margin-bottom: 2vw;
+    padding: 2vw;
+}
+.prawns h2{
+    font-family: 'Syne';
+}
+.prawns dl{
+    font-family: 'Karla'
+}
+.prawns dt{
+    font-weight: bold;
+}
+
+.veg{
+    background-color: rgb(180, 180, 180);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    padding: 2vw;
+} 
+.veg h2{
+    font-family: 'Syne';
+}
+.veg dl{
+    font-family: 'Karla';
+}
+.veg dt{
+    font-weight: bold;
+}
