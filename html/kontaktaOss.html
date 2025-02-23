@@ -5,8 +5,9 @@
     <meta name="description" content="Thai vagnen desc">
     <meta name="author" content="Isac Juselius">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--<link rel="stylesheet" href="../assets/style.css">-->
-    <title>Document</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <script src="https://kit.fontawesome.com/85302a0673.js" crossorigin="anonymous"></script>
+    <title>Thai-vagnen</title>
 </head>
 
 <header>
@@ -31,41 +32,36 @@
 </header>
 <body>
 
-    <div class="contactBanner">
+    <Section class="contactSection">
 
         <div id="contactContainer">
-            <h2>Kontakta oss</h2>
+            
+            <div class="contactForm">
+                <h2>Kontakta oss</h2>
+                <form>
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Ditt namn" class="contactInput">
+                    </div>
 
-            <div class="contact-wrapper">
-                
-                <div class="contactForm">
-                    <h3>Skicka oss ett meddelande</h3>
-                    <form>
-                       
-                        <div class="form-group">
-                            <input type="text" name="name" placeholder="Ditt namn">
-                        </div>
-    
-                        <div class="form-group">
-                            <input type="email" name="email" placeholder="Din epost">
-                        </div>
-    
-                        <div class="form-group">
-                            <textarea name="message" placerholder="Ditt meddelande"></textarea>
-                        </div>
-    
-                        <button type="submit">Skicka meddelande</button>
-                    </form>
-                
-                </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Din epost" class="contactInput">
+                    </div>
 
-                <div class="contactInfo">
-                    <h3>Kontakt information</h3>
-                    <p>070-5377815</p>
-                    <a href="mat@thai-vagnen.se">mat@thai-vagnen.se</a>
-                    <p>Formvägen 8</p>
-                </div>
+                    <div class="form-group">
+                        <textarea name="message" placerholder="Ditt meddelande" class="contactInput"></textarea>
+                    </div>
 
+                    <button type="submit">Skicka meddelande</button>
+                </form>
+            
+            </div>
+
+            <div class="contactInfo">
+                <h3>Kontakt information</h3>
+                <p>070-5377815</p>
+                <a href="mat@thai-vagnen.se">mat@thai-vagnen.se</a>
+                <p>Formvägen 8</p>
             </div>
 
         </div>
@@ -76,43 +72,35 @@
 
 <footer>
     
-    <div class="footerBesokOss">
-        <hr>
-        BESÖK OSS<br>
-        Formvägen 8, <br>
-        vid Elon & Flügger färg.<br>
-        070-5377815<br>
-        <a href="mat@thai-vagnen.se">mat@thai-vagnen.se</a>
-        
-
-    </div>
-
-    <div class="footerThaiVagnen">
-        <hr>
-        THAI-VAGNEN<br>
-        <a href="https://www.facebook.com/thaivagnenersboda">Facebook</a>
-    </div>
-
-    <div class="footerOppettider">
-        <hr>
-        ÖPPETTIDER
-        <dl>
-            <dt>Måndag</dt>
-            <dd>10:30-19:00</dd>
-
-            <dt>Tisdag</dt>
-            <dd>10:30-19:00</dd>
-
-            <dt>Onsdag</dt>
-            <dd>10:30-19:00</dd>
-
-            <dt>Torsdag</dt>
-            <dd>10:30-19:00</dd>
-
-            <dt>Fredag</dt>
-            <dd>10:30-19:00</dd>
-        </dl>
-    </div>
+    <div id="footerContainer">
+        <div class="footerBesokOss">
+            
+            <h3>BESÖK OSS</h3><br>
+            
+            <p>Formvägen 8,</p> 
+            <p>vid Elon & Flügger färg.</p>
+            <p>070-5377815</p>
+            <a href="mat@thai-vagnen.se">mat@thai-vagnen.se</a>
+            
     
+        </div>
+    
+        <div class="footerThaiVagnen">
+            
+            <h3>THAI-VAGNEN</h3><br>
+            
+            <a href="https://www.facebook.com/thaivagnenersboda"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    
+        <div class="footerOppettider">
+            
+            <h3>ÖPPETTIDER</h3>
+            
+            <p>Mån-fre 10.30-19.00</p>
+            <p>Lör 11.00-19.00</p>
+            <p>Sön stängt</p>
+        </div>
+    </div>
+
 </footer>
 </html>

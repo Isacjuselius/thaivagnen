@@ -2,12 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Syne:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend:wght@100..900&family=Syne:wght@400..800&display=swap');
 
-
-@font-face {
-    font-family: 'alfreddrake';
-    src: url(../assets/fonts/alfreddrake.ttf);
-}
-
 body{
     background-color: #728651;
     padding: 0;
@@ -17,6 +11,7 @@ body{
     overflow-x: hidden;
 }
 
+
 h1{
     font-family: 'Syne';
     font-size: 3vw;
@@ -25,17 +20,13 @@ h1{
     padding: 0;
 }
 
-h2{
+h2, h3{
     font-family: 'Syne'
 }
 
 p{
     font-family: 'Karla';
     font-size: 1.5vw;
-}
-
-html{
-    scroll-behavior: smooth;
 }
 
 /**
@@ -108,7 +99,7 @@ nav ul li{
 /**
     First section on homepage
 **/
-.banner{
+.homeSection{
     height: 100%;
     margin-top: 2vw;
     padding: 2vw;
@@ -392,8 +383,7 @@ footer{
 .footerBesokOss p{
     margin: 0;
     color:#728651;
-    font-family: 'Syne';
-    font-size: 0.75vw;
+    font-size: 1vw;
 }
 
 .footerBesokOss a{
@@ -411,7 +401,7 @@ footer{
 }
 
 .footerThaiVagnen p{
-    font-size: 0.75vw;
+    font-size: 1vw;
 }
 
 .footerOppettider{
@@ -420,19 +410,22 @@ footer{
 }
 
 .footerOppettider p{
-    font-size: 0.75vw;
+    font-size: 1vw;
 }
 
 /**
     Menu
 **/
 .menuSection{
+    display: flex;
+    justify-content: center;
     background-color: #ffff;
     height: 100%;
     padding: 2vw;
 }
 
 #menuContainer{
+    position: center;
     display:grid;
     width: 100%;
     grid-template-areas: 'a b';
@@ -509,7 +502,7 @@ footer{
     About Us
 **/
 
-.aboutUs{
+.aboutUsSection{
     height:100%;
     padding: 2vw;
 }
@@ -533,4 +526,52 @@ footer{
 
 .video{
     width: 30vw;
+}
+
+/**
+    Contact us
+**/
+
+.contactSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#contactContainer{
+    position: center;
+    display:grid;
+    grid-template-areas: 'a b';
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 2vw;
+    
+}
+
+
+.contactForm{
+    flex-direction: column;
+    background-color: #ffff;
+    padding: 2vw;
+    align-items: start;
+}
+
+.contactform, input{
+    margin-bottom: 2vw;
+}
+
+.contactform, textarea{
+    margin-bottom: 2vw;
+}
+
+.contactInput{
+    width: 45vw;
+}
+
+.contactInfo{
+    background-color: #ffff;
+    padding: 2vw;
+
 }
