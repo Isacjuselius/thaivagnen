@@ -367,7 +367,6 @@ footer{
 #footerContainer div{
     width: 30vw;
     text-align: center;
-    float: top;
     align-self: start;
 }
 
@@ -536,7 +535,6 @@ footer{
 }
 
 #contactContainer{
-    position: center;
     display:grid;
     grid-template-areas: 'a b';
     grid-template-columns: 1fr 1fr;
