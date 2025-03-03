@@ -5,11 +5,10 @@ body{
     background-color: #728651;
     padding: 0;
     margin: 0;
-    margin-top: 10vw;
+    margin-top: 0;
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
 
 h1{
     font-family: 'Syne';
@@ -31,7 +30,6 @@ p{
 /**
     Header and navboard
 **/
-
 header{
     background-color: #ffff;
     position: fixed;
@@ -90,14 +88,12 @@ nav a:hover{
     color: hsl(0, 0%, 30%);
 }
 
-
-
 /**
     First section on homepage
 **/
 .homeSection{
     height: 100%;
-    margin-top: 2vw;
+    margin-top: 5vw;
     padding: 2vw;
 }
 
@@ -106,13 +102,14 @@ nav a:hover{
     grid-template-areas: 'a b c';
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    margin-top: 3vw;
+    margin-top: 6vw;
     justify-content: space-between;
     gap: 3vw;
 }
 
 #homeContainer div{
     align-items: center;
+    height:36vw;
 }
 
 .farskaVaror{
@@ -181,7 +178,6 @@ nav a:hover{
 /**
     Second section on homepage
 **/
-
 .banner2{
     background-color: #ffff;
     height: 100%;
@@ -417,6 +413,7 @@ footer{
     background-color: #ffff;
     height: 100%;
     padding: 2vw;
+    margin-top: 5vw;
 }
 
 #menuContainer{
@@ -500,6 +497,7 @@ footer{
 .aboutUsSection{
     height:100%;
     padding: 2vw;
+    margin-top: 5vw;
 }
 
 #aboutUsContainer{
@@ -516,7 +514,7 @@ footer{
 .weAreThaiVagnen{
     background-color: #ffff;
     padding: 2vw;
-    height: 35vw;
+    height: 30vw;
 }
 
 .video{
@@ -532,6 +530,8 @@ footer{
     justify-content: center;
     flex-direction: column;
     height: 100%;
+    margin-bottom: 11vw;
+    margin-top: 10vw;
 }
 
 #contactContainer{
