@@ -6,7 +6,7 @@ header, footer{
 }
 
 .chicken{
-    background-color: rgb(195, 195, 195);
+    background-color: lightblue;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
     margin-bottom: 2vw;
@@ -23,7 +23,7 @@ header, footer{
 }
 
 .beef{
-    background-color: rgb(150, 150, 150);
+    background-color: burlywood;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
     margin-bottom: 10vw;
@@ -40,7 +40,7 @@ header, footer{
 }
 
 .prawns{
-    background-color: rgb(200, 200, 200);
+    background-color: pink;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
     margin-bottom: 2vw;
@@ -57,7 +57,7 @@ header, footer{
 }
 
 .veg{
-    background-color: rgb(180, 180, 180);
+    background-color: lightgreen;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
     padding: 2vw;

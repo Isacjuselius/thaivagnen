@@ -256,25 +256,35 @@ nav a:hover{
 }
 
 .carouselTrackContainer{
-    background-color: white;
-    padding: 1vw;
-    height:100%;
+    
+    height:18vw;
     position: relative;
-    display:grid;
-
+    width: 60vw;
+    justify-content: space-between;
+    overflow: hidden;
+    
 }
 
+
 .carouselTrack{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0;
     margin: 0;
     list-style: none;
+    height: 100%;
+    transition: transform 200ms ease-in;
+    
+    
 }
 
 .carouselSlide{
-    display: inline-block;
+    background-color: #ffff;
     top: 0;
     bottom: 0;
-    width:100%;
+    width:60vw;
+    height: 100%;
+    
 }
 
 .carouselSlide h3{
@@ -307,7 +317,7 @@ nav a:hover{
     transform: translateY(-50%);
     background: transparent;
     border: 0;
-    right: -6vw;
+    right: -5vw;
     cursor: pointer;
 }
 
@@ -328,6 +338,7 @@ nav a:hover{
     width: 1vw;
     height: 1vw;
     margin: 0 1vw;
+    cursor: pointer;
 }
 
 .carouselIndicator.currentSlide{
@@ -584,4 +595,56 @@ footer{
         display: flex;
         flex-direction: column;
     }
+}
+
+@media print{
+    header, footer{
+        display:none;
+    }
+
+    h2 {
+        font-family: 'Syne';
+    }
+
+    dl{
+        font-family: 'Karla';
+    }
+
+    dt{
+        font-weight: bold;
+        font-size: 2vw !important;
+    }
+
+    .chicken{
+        background-color: lightblue;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        margin-bottom: 2vw;
+        padding: 2vw;
+    }
+    
+    .beef{
+        background-color: burlywood;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        margin-bottom: 10vw;
+        padding: 2vw;
+    }
+    
+    .prawns{
+        background-color: pink;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        margin-bottom: 2vw ;
+        padding: 2vw;
+        margin-top: 4vw;
+    }
+    
+    .veg{
+        background-color: lightgreen ;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        padding: 2vw;
+
+    } 
 }
