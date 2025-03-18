@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/style.css">
     <script src="https://kit.fontawesome.com/85302a0673.js" crossorigin="anonymous"></script>
+    <script src="../javaScript/navigation.js" defer></script>
+    <script src="../javaScript/contact.js" defer></script>
     <title>Thai-vagnen</title>
 </head>
 
@@ -15,18 +17,19 @@
         <div class="navContainer">
             
                         
-                <div class="logo">
-                    
-                    <a href="index.html"><h1>THAI-VAGNEN</h1></a>
-                    
-                </div>
-                <nav>
-    
-                    <ul>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="kontaktaOss.html">Kontakta oss</a></li>
-                        <li><a href="omOss.html">Om oss</a></li>
-                    </ul>
+            <div class="logo">
+                
+                <a href="index.html"><h1>THAI-VAGNEN</h1></a>
+                
+            </div>
+            <nav>
+
+                <ul>
+                    <li onmouseover="onButton(this)" onmouseout ="offButton(this)"><a href="menu.html">Menu</a></li>
+                    <li onmouseover="onButton(this)" onmouseout ="offButton(this)"><a href="kontaktaOss.html">Kontakta oss</a></li>
+                    <li onmouseover="onButton(this)" onmouseout ="offButton(this)"><a href="omOss.html">Om oss</a></li>
+                    <li onmouseover="onButton(this)" onmouseout ="offButton(this)"><a href="table.html">Tabell</a></li>
+                </ul>
                 
             </nav>
         </div>     
@@ -41,15 +44,15 @@
                 <form>
                     
                     <div class="form-group">
-                        <input type="text" name="name" placeholder="Ditt namn" class="contactInput">
+                        <input type="text" onfocus="onFocus(this)" onblur="onBlur(this)" name="name" placeholder="Ditt namn" class="contactInput">
                     </div>
 
                     <div class="form-group">
-                        <input type="email" name="email" placeholder="Din epost" class="contactInput">
+                        <input type="email" onfocus="onFocus(this)" onblur="onBlur(this)" name="email" placeholder="Din epost" class="contactInput">
                     </div>
 
                     <div class="form-group">
-                        <textarea name="message" class="contactInput"></textarea>
+                        <textarea name="message" onfocus="onFocus(this)" onblur="onBlur(this)" class="contactInput"></textarea>
                     </div>
 
                     <button type="submit">Skicka meddelande</button>

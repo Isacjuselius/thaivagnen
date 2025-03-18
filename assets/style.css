@@ -84,9 +84,6 @@ nav a{
 
 }
 
-nav a:hover{
-    color: hsl(0, 0%, 30%);
-}
 
 /**
     First section on homepage
