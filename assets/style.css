@@ -140,6 +140,7 @@ nav a{
    height: 40vw;
    width: 20vw;
    background-color: #728651;
+   
 }
 
 .ersboda p{
@@ -170,6 +171,11 @@ nav a{
     font-family: 'Syne';
     font-size: 3vw;
     width: 30vw;
+}
+
+.fadeTextblock1, .fadeTextblock2{
+    background-color:#ffff;
+    width: 10vw;
 }
 
 /**
